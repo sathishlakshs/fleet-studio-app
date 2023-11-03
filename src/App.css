@@ -1,16 +1,33 @@
 .App {
   text-align: center;
+  margin-top: 16px;
+}
+
+.searchBox {
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
 }
 
 .card {
   width: 25%;
   height: 180px;
+  flex: 1;
+  border: 1px solid;
+  margin-top: 50px;
+}
+.card p {
+  padding: 0 10px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 1%;
 }
 
 @media only screen and (max-width: 600px) {
